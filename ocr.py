@@ -121,8 +121,9 @@ def main():
 
     # Print statements to print out the 'grabbed' information
     print("\nName:  ", OCR.getName())
-    print("Email: ", OCR.getEmailAddress())
-    print("Phone: ", OCR.getPhoneNumber(), "\n")
+    print("Phone: ", OCR.getPhoneNumber())
+    print("Email: ", OCR.getEmailAddress(), "\n")
+
 
 
 # end of main()    
