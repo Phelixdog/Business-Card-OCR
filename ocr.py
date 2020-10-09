@@ -120,9 +120,9 @@ def main():
     OCR = BusinessCardParser().getContactInfo(data_file)
 
     # Print statements to print out the 'grabbed' information
+    print("\nName:  ", OCR.getName())
     print("Email: ", OCR.getEmailAddress())
-    print("Phone: ", OCR.getPhoneNumber())
-    print("\nName:  ", OCR.getName(), "\n")
+    print("Phone: ", OCR.getPhoneNumber(), "\n")
 
 
 # end of main()    
